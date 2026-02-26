@@ -123,7 +123,7 @@ npm run dev:mp-weixin -- --alias
 
 ## 📱 扫码预览
 
-<img src="./docs/image/tdesign-uniapp-starter-vue2-cli-h5" width="300" />
+<img src="./docs/image/tdesign-uniapp-starter-vue2-cli-h5.png" width="300" />
 
 ## 📄 License
 
