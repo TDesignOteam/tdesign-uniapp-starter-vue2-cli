@@ -69,11 +69,11 @@ importers:
         specifier: ^2.0.2-4080720251210002
         version: 2.0.2-4080720251210002
       '@tdesign/uniapp':
-        specifier: ^0.7.1
-        version: 0.7.1
+        specifier: https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp@4280
+        version: https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp@4280
       '@tdesign/uniapp-chat':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp-chat@4280
+        version: https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp-chat@4280
       '@vue/shared':
         specifier: ^3.0.0
         version: 3.5.24
@@ -1199,11 +1199,13 @@ packages:
   '@soda/get-current-script@1.0.2':
     resolution: {integrity: sha512-T7VNNlYVM1SgQ+VsMYhnDkcGmWhQdL0bDyGm5TlQ3GBXnJscEClUUOKduWTmm2zCnvNLC1hc3JpuXjs/nFOc5w==}
 
-  '@tdesign/uniapp-chat@0.2.0':
-    resolution: {integrity: sha512-s0rBvQlk6qWU7U4Z+DMA42IvuGaSXEr8NQZ4M0lzMwpxsamh/6vTUhJkSM52hl1rMCKbPXw+zp93tZ7G2C4DQg==}
+  '@tdesign/uniapp-chat@https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp-chat@4280':
+    resolution: {tarball: https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp-chat@4280}
+    version: 0.2.0
 
-  '@tdesign/uniapp@0.7.1':
-    resolution: {integrity: sha512-okWrwqcnzjGiMfkafdHsHDePi4ykUo/45Iko7yyL/uVS2kR5aWjCVmjiE+olGvAMPKurshl7e0Q3Q7SZL8r4uA==}
+  '@tdesign/uniapp@https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp@4280':
+    resolution: {tarball: https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp@4280}
+    version: 0.7.1
 
   '@trysound/sax@0.2.0':
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
@@ -8195,10 +8197,7 @@ snapshots:
       jest-runner: 25.5.4
       jest-runtime: 25.5.4
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - utf-8-validate
 
   '@jest/transform@25.5.1':
     dependencies:
@@ -8573,9 +8572,9 @@ snapshots:
 
   '@soda/get-current-script@1.0.2': {}
 
-  '@tdesign/uniapp-chat@0.2.0': {}
+  '@tdesign/uniapp-chat@https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp-chat@4280': {}
 
-  '@tdesign/uniapp@0.7.1': {}
+  '@tdesign/uniapp@https://pkg.pr.new/Tencent/tdesign-miniprogram/@tdesign/uniapp@4280': {}
 
   '@trysound/sax@0.2.0': {}
 
