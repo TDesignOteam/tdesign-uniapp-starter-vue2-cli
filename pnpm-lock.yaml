@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@dcloudio/uni-template-compiler@2.0.2-4080720251210002':
+    hash: eb0d1f8d1b7a029694b066ed991855e59204486c58820f990dc3f05bb95a81a3
+    path: patches/@dcloudio__uni-template-compiler@2.0.2-4080720251210002.patch
+
 importers:
 
   .:
@@ -116,7 +121,7 @@ importers:
         version: 2.0.2-4080720251210002
       '@dcloudio/uni-template-compiler':
         specifier: ^2.0.2-4080720251210002
-        version: 2.0.2-4080720251210002
+        version: 2.0.2-4080720251210002(patch_hash=eb0d1f8d1b7a029694b066ed991855e59204486c58820f990dc3f05bb95a81a3)
       '@dcloudio/vue-cli-plugin-hbuilderx':
         specifier: ^2.0.2-4080720251210002
         version: 2.0.2-4080720251210002
@@ -7846,7 +7851,7 @@ snapshots:
 
   '@dcloudio/uni-stat@2.0.2-4080720251210002': {}
 
-  '@dcloudio/uni-template-compiler@2.0.2-4080720251210002':
+  '@dcloudio/uni-template-compiler@2.0.2-4080720251210002(patch_hash=eb0d1f8d1b7a029694b066ed991855e59204486c58820f990dc3f05bb95a81a3)':
     dependencies:
       '@babel/parser': 7.28.5
       '@babel/template': 7.27.2
@@ -12017,10 +12022,7 @@ snapshots:
       pretty-format: 25.5.0
       throat: 5.0.0
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - utf-8-validate
 
   jest-leak-detector@25.5.0:
     dependencies:

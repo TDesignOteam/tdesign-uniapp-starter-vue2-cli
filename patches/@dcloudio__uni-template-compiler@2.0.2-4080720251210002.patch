@@ -1,0 +1,30 @@
+diff --git a/lib/script/traverse/data/class.js b/lib/script/traverse/data/class.js
+index 5503e091acfe8e98af82794c932548aad6785ceb..2cf0033d845fc67bbb749fb2b3aad79e851d7e32 100644
+--- a/lib/script/traverse/data/class.js
++++ b/lib/script/traverse/data/class.js
+@@ -96,7 +96,9 @@ module.exports = function processClass (paths, path, state) {
+       classValuePath.isMemberExpression() || // 需要优化到下一个条件，:class="item.classObject"
+       classValuePath.isConditionalExpression() ||
+       classValuePath.isLogicalExpression() ||
+-      classValuePath.isBinaryExpression()
++      classValuePath.isBinaryExpression() ||
++      classValuePath.isCallExpression() || // 支持函数调用，如 tools.cls(...)
++      classValuePath.isTemplateLiteral() // 支持模板字符串
+     ) {
+       // 理论上 ConditionalExpression,LogicalExpression 可能存在 classObject，应该__get_class，还是先不考虑这种情况吧
+       // ConditionalExpression :class="index === currentIndex ? activeStyle : itemStyle"
+diff --git a/lib/script/traverse/data/style.js b/lib/script/traverse/data/style.js
+index 90f5e463ef5e5e27b2f5a961c47b527d2838db07..010c96f8ef453aa1c515ae66b67ec1b571da6954 100644
+--- a/lib/script/traverse/data/style.js
++++ b/lib/script/traverse/data/style.js
+@@ -163,7 +163,9 @@ module.exports = function processStyle (paths, path, state) {
+       styleValuePath.isMemberExpression() || // TODO 需要优化到下一个条件，:style="item.styleObject"
+       styleValuePath.isConditionalExpression() ||
+       styleValuePath.isLogicalExpression() ||
+-      styleValuePath.isBinaryExpression()
++      styleValuePath.isBinaryExpression() ||
++      styleValuePath.isCallExpression() || // 支持函数调用，如 tools._style([customStyle])
++      styleValuePath.isTemplateLiteral() // 支持模板字符串
+     ) {
+       // 理论上 ConditionalExpression,LogicalExpression 可能存在 styleObject，应该__get_style，还是先不考虑这种情况吧
+       // ConditionalExpression :style="index === currentIndex ? activeStyle : itemStyle"

@@ -1,0 +1,2 @@
+patchedDependencies:
+  '@dcloudio/uni-template-compiler@2.0.2-4080720251210002': patches/@dcloudio__uni-template-compiler@2.0.2-4080720251210002.patch
