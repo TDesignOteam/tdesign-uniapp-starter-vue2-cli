@@ -1,6 +1,7 @@
 {
   "name": "tdesign-uniapp-starter-vue2-cli",
   "version": "0.1.0",
+  "packageManager": "pnpm@10.27.0",
   "private": true,
   "scripts": {
     "serve": "npm run dev:h5",
