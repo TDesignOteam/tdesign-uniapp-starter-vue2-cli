@@ -1,0 +1,3 @@
+onlyBuiltDependencies:
+  - '@tdesign/uniapp'
+  - '@tdesign/uniapp-chat'
