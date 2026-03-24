@@ -69,11 +69,11 @@ importers:
         specifier: ^2.0.2-4080720251210002
         version: 2.0.2-5000420260318002
       '@tdesign/uniapp':
-        specifier: https://pkg.pr.new/@tdesign/uniapp@4373
-        version: https://pkg.pr.new/@tdesign/uniapp@4373
+        specifier: https://pkg.pr.new/@tdesign/uniapp@4375
+        version: https://pkg.pr.new/@tdesign/uniapp@4375
       '@tdesign/uniapp-chat':
-        specifier: https://pkg.pr.new/@tdesign/uniapp-chat@4373
-        version: https://pkg.pr.new/@tdesign/uniapp-chat@4373
+        specifier: https://pkg.pr.new/@tdesign/uniapp-chat@4375
+        version: https://pkg.pr.new/@tdesign/uniapp-chat@4375
       '@vue/shared':
         specifier: ^3.0.0
         version: 3.5.30
@@ -1267,15 +1267,15 @@ packages:
   '@tdesign/uniapp-chat@0.2.2':
     resolution: {integrity: sha512-utg/aQOMyJv8fyy10PNg8JAqiilOhKYF0BstZYwU5BG+AAse5H9uxnBjeF0rv81V3qCWq2l00f24gRdGSu9wuA==}
 
-  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4373':
-    resolution: {tarball: https://pkg.pr.new/@tdesign/uniapp-chat@4373}
+  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4375':
+    resolution: {integrity: sha512-gDsqNewmP8WlNrbj6X6YihC6GZoMPt7kE7CJuT1lpvihrVmKGhKEy4KTd+cQT73cDGpkz7HIz13jZKFlW8EEHg==, tarball: https://pkg.pr.new/@tdesign/uniapp-chat@4375}
     version: 0.2.2
 
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
 
-  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4373':
-    resolution: {tarball: https://pkg.pr.new/@tdesign/uniapp@4373}
+  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4375':
+    resolution: {integrity: sha512-qQHyMpsxPUw1hMcuxRc+4EpM0h3dNVbHXS3o6qxqUbeVDC/ADtA6L6Cn4vFm5jXkIzeTZ6vOPp+tl6G2Vo05LA==, tarball: https://pkg.pr.new/@tdesign/uniapp@4375}
     version: 0.8.0
 
   '@types/babel__core@7.20.5':
@@ -9012,11 +9012,11 @@ snapshots:
 
   '@tdesign/uniapp-chat@0.2.2': {}
 
-  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4373': {}
+  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4375': {}
 
   '@tdesign/uniapp@0.7.3': {}
 
-  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4373': {}
+  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4375': {}
 
   '@types/babel__core@7.20.5':
     dependencies:
