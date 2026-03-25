@@ -1213,8 +1213,8 @@ packages:
   '@pinojs/redact@0.4.0':
     resolution: {integrity: sha512-k2ENnmBugE/rzQfEcdWHcCY+/FM3VLzH9cYEsbdsoqrvzAKRhUZeRNhAZvB8OitQJ1TBed3yqWtdjzS6wJKBwg==}
 
-  '@plugin-light/const@0.1.2':
-    resolution: {integrity: sha512-2p0EVk1mtis2DuZgu1MpuK65NRrmyxOIJtlCPlOLDpNTQ+b7Fc0UM9DqBJI8AwfiYd7qboVzs1LA7VRbV0ujcg==}
+  '@plugin-light/const@0.1.4':
+    resolution: {integrity: sha512-EoZ26Ryq8wJET35K0ksE9BUXjECrpMDzd/+r9BvHh+GID4vwCx0dTOTkrbOrSW4w0Apj03udLGbiqThXDUmEGQ==}
     engines: {node: 12.x || 14.x || >= 16}
 
   '@plugin-light/shared-vue2@1.0.1':
@@ -1222,8 +1222,8 @@ packages:
     peerDependencies:
       vue-template-compiler: 2.6.14
 
-  '@plugin-light/shared@1.0.22':
-    resolution: {integrity: sha512-guCOHmBolcln2Fc2fVLAgH8u9deyhPBE64Ia+5wiVvec8QhY6us9eJnJtq7sUUzpt2JDOk9/jdX2LUmcSvSJ1g==}
+  '@plugin-light/shared@1.0.24':
+    resolution: {integrity: sha512-f52YGQOE+YytErm+bYhaJLtXxFu9OFdTUy7D0a912qu7uhU7f1aBYNrkczmywCJCi+QPYwAfZ3Ehjvd7K8js/w==}
 
   '@plugin-light/webpack-plugin-add-common-vendor@1.0.0':
     resolution: {integrity: sha512-nAf1iKfPKTaFwaeHNG2Cqi/nz394N2f1lOedFaIx34rZ5Jslv2COIrx8yR/jrujohEF561EL9J1FoCIuclei0A==}
@@ -1268,14 +1268,14 @@ packages:
     resolution: {integrity: sha512-utg/aQOMyJv8fyy10PNg8JAqiilOhKYF0BstZYwU5BG+AAse5H9uxnBjeF0rv81V3qCWq2l00f24gRdGSu9wuA==}
 
   '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4375':
-    resolution: {integrity: sha512-gDsqNewmP8WlNrbj6X6YihC6GZoMPt7kE7CJuT1lpvihrVmKGhKEy4KTd+cQT73cDGpkz7HIz13jZKFlW8EEHg==, tarball: https://pkg.pr.new/@tdesign/uniapp-chat@4375}
+    resolution: {tarball: https://pkg.pr.new/@tdesign/uniapp-chat@4375}
     version: 0.2.2
 
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
 
   '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4375':
-    resolution: {integrity: sha512-qQHyMpsxPUw1hMcuxRc+4EpM0h3dNVbHXS3o6qxqUbeVDC/ADtA6L6Cn4vFm5jXkIzeTZ6vOPp+tl6G2Vo05LA==, tarball: https://pkg.pr.new/@tdesign/uniapp@4375}
+    resolution: {tarball: https://pkg.pr.new/@tdesign/uniapp@4375}
     version: 0.8.0
 
   '@types/babel__core@7.20.5':
@@ -3116,8 +3116,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.321:
-    resolution: {integrity: sha512-L2C7Q279W2D/J4PLZLk7sebOILDSWos7bMsMNN06rK482umHUrh/3lM8G7IlHFOYip2oAg5nha1rCMxr/rs6ZQ==}
+  electron-to-chromium@1.5.322:
+    resolution: {integrity: sha512-vFU34OcrvMcH66T+dYC3G4nURmgfDVewMIu6Q2urXpumAPSMmzvcn04KVVV8Opikq8Vs5nUbO/8laNhNRqSzYw==}
 
   elliptic@6.6.1:
     resolution: {integrity: sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==}
@@ -4961,8 +4961,8 @@ packages:
   node-forge@0.7.6:
     resolution: {integrity: sha512-sol30LUpz1jQFBjOKwbjxijiE3b6pjd74YwfD0fJOKPjF+fONKb2Yg8rYgS6+bK6VDl+/wfr4IYpC7jDzLUIfw==}
 
-  node-forge@1.3.3:
-    resolution: {integrity: sha512-rLvcdSyRCyouf6jcOIPe/BgwG/d7hKjzMKOas33/pHEr6gbq18IK9zV7DiPvzsz0oBJPme6qr6H6kGZuI9/DZg==}
+  node-forge@1.4.0:
+    resolution: {integrity: sha512-LarFH0+6VfriEhqMMcLX2F7SwSXeWwnEAJEsYm5QKWchiVYVvJyV9v7UDvUv+w5HO23ZpQTXDv/GxdDdMyOuoQ==}
     engines: {node: '>= 6.13.0'}
 
   node-int64@0.4.0:
@@ -6472,7 +6472,6 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
-    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tdesign-miniprogram@1.13.0:
     resolution: {integrity: sha512-CaqqOlXCFJdkTh0ZeVRnTHhGz97uLckRA58ADT9Cs+YJXimA7rtAFt7mb+jqLn+v1944U3lyeX6GNy0lctI4zQ==}
@@ -7046,10 +7045,12 @@ packages:
 
   whatwg-encoding@1.0.5:
     resolution: {integrity: sha512-b5lim54JOPN9HtzvK9HFXvBma/rnfFeqsic0hSpjtDbVxR3dJKLc+KB4V6GgiGOvl7CY/KNh8rxSo9DKQrnUEw==}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-fetch@3.6.20:
     resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
@@ -8913,20 +8914,23 @@ snapshots:
 
   '@pinojs/redact@0.4.0': {}
 
-  '@plugin-light/const@0.1.2': {}
+  '@plugin-light/const@0.1.4':
+    dependencies:
+      '@tdesign/uniapp': 0.7.3
+      '@tdesign/uniapp-chat': 0.2.2
 
   '@plugin-light/shared-vue2@1.0.1(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 1.0.22
+      '@plugin-light/shared': 1.0.24
       loader-utils: 2.0.4
       vue-template-compiler: 2.6.14
     transitivePeerDependencies:
       - debug
       - supports-color
 
-  '@plugin-light/shared@1.0.22':
+  '@plugin-light/shared@1.0.24':
     dependencies:
-      '@plugin-light/const': 0.1.2
+      '@plugin-light/const': 0.1.4
       '@tdesign/uniapp': 0.7.3
       '@tdesign/uniapp-chat': 0.2.2
       axios: 1.13.6
@@ -8944,7 +8948,7 @@ snapshots:
 
   '@plugin-light/webpack-plugin-add-common-vendor@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 1.0.22
+      '@plugin-light/shared': 1.0.24
       '@plugin-light/webpack-plugin-dispatch-vue': 1.0.0(vue-template-compiler@2.6.14)
     transitivePeerDependencies:
       - debug
@@ -8953,7 +8957,7 @@ snapshots:
 
   '@plugin-light/webpack-plugin-dispatch-script@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 1.0.22
+      '@plugin-light/shared': 1.0.24
       '@plugin-light/shared-vue2': 1.0.1(vue-template-compiler@2.6.14)
       '@plugin-light/webpack-plugin-add-common-vendor': 1.0.0(vue-template-compiler@2.6.14)
       '@plugin-light/webpack-plugin-dispatch-vue': 1.0.0(vue-template-compiler@2.6.14)
@@ -8965,7 +8969,7 @@ snapshots:
 
   '@plugin-light/webpack-plugin-dispatch-vue@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 1.0.22
+      '@plugin-light/shared': 1.0.24
       '@plugin-light/shared-vue2': 1.0.1(vue-template-compiler@2.6.14)
       '@plugin-light/webpack-plugin-fix-npm-package': 1.0.0
       t-comm: 1.6.23
@@ -8976,7 +8980,7 @@ snapshots:
 
   '@plugin-light/webpack-plugin-fix-npm-package@1.0.0':
     dependencies:
-      '@plugin-light/shared': 1.0.22
+      '@plugin-light/shared': 1.0.24
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -10356,7 +10360,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.10
       caniuse-lite: 1.0.30001781
-      electron-to-chromium: 1.5.321
+      electron-to-chromium: 1.5.322
       node-releases: 2.0.36
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
@@ -11256,7 +11260,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.321: {}
+  electron-to-chromium@1.5.322: {}
 
   elliptic@6.6.1:
     dependencies:
@@ -13500,7 +13504,7 @@ snapshots:
 
   node-forge@0.7.6: {}
 
-  node-forge@1.3.3: {}
+  node-forge@1.4.0: {}
 
   node-int64@0.4.0: {}
 
@@ -14693,7 +14697,7 @@ snapshots:
   selfsigned@2.4.1:
     dependencies:
       '@types/node-forge': 1.3.14
-      node-forge: 1.3.3
+      node-forge: 1.4.0
 
   semver@5.7.2: {}
 
