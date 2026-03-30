@@ -70,7 +70,6 @@
     "@dcloudio/uni-mp-vue": "^2.0.2-4080720251210002",
     "@dcloudio/uni-mp-weixin": "^2.0.2-4080720251210002",
     "@dcloudio/uni-mp-xhs": "^2.0.2-4080720251210002",
-    "@dcloudio/uni-quickapp-native": "^2.0.2-4080720251210002",
     "@dcloudio/uni-quickapp-webview": "^2.0.2-4080720251210002",
     "@dcloudio/uni-stacktracey": "^2.0.2-4080720251210002",
     "@dcloudio/uni-stat": "^2.0.2-4080720251210002",
