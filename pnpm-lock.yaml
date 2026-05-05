@@ -66,11 +66,11 @@ importers:
         specifier: ^2.0.2-4080720251210002
         version: 2.0.2-5000420260318002
       '@tdesign/uniapp':
-        specifier: ^0.8.1
-        version: 0.8.1
+        specifier: https://pkg.pr.new/@tdesign/uniapp@4437
+        version: https://pkg.pr.new/@tdesign/uniapp@4437
       '@tdesign/uniapp-chat':
-        specifier: ^0.2.3
-        version: 0.2.3
+        specifier: https://pkg.pr.new/@tdesign/uniapp-chat@4437
+        version: https://pkg.pr.new/@tdesign/uniapp-chat@4437
       '@vue/shared':
         specifier: ^3.0.0
         version: 3.5.30
@@ -1228,11 +1228,16 @@ packages:
   '@tdesign/uniapp-chat@0.2.3':
     resolution: {integrity: sha512-I2PcuUbMZzfWin1seFmkUm8yhoebQMq3I6ewC+2e1s00rMf4mD7/MzS8w94IoZ53PO+UBzFFaBoEXEhQsY5frw==}
 
+  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4437':
+    resolution: {integrity: sha512-bZ0lDTdZn8uR3sgLr6xrwcwuVjuS7Ubpm2WsTCdP86FQUsuZ5RiOD68tG8HDkFL2lDloGhUDhePUENU6ZG2Csw==, tarball: https://pkg.pr.new/@tdesign/uniapp-chat@4437}
+    version: 0.2.3
+
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
 
-  '@tdesign/uniapp@0.8.1':
-    resolution: {integrity: sha512-zYKIkgulDg4i4h6o+wIbA9kSKM9l6x6RtuvbaQwJ3NjbwbeB573BuwjsiMzjkWpl6AzajX0rEjwFBMgqABKPeA==}
+  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4437':
+    resolution: {tarball: https://pkg.pr.new/@tdesign/uniapp@4437}
+    version: 0.8.1
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -3291,7 +3296,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global@4.4.0:
     resolution: {integrity: sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==}
@@ -5728,8 +5733,8 @@ packages:
     resolution: {integrity: sha512-B7bShN7U5ZP6uSaurjbAtXvrIDPPJvZMhjJ74j9WL78ncEl1xeMttZUc6+98eJ/OqakqfNKzoPcXWR0x/NvgCA==}
     hasBin: true
 
-  t-comm@3.2.3:
-    resolution: {integrity: sha512-jhOKbWKvJ5Itdp32xRR8Vq5lcZ+fq6ylvGowp8GEWEZtlZgHs/FJLZrl/paeRw8M6w2P0ZGPxrjUEg1WyZeGdg==}
+  t-comm@3.2.20:
+    resolution: {integrity: sha512-ycemB9AZCuayFnYpwxdJxVt0RhCljp3l7xpuAzfFrzRYhl4/aYg2w3AnICXdkreXU5kFILSXwp8hNSo57/MvyA==}
     hasBin: true
 
   tapable@0.1.10:
@@ -5754,6 +5759,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tdesign-miniprogram@1.13.0:
     resolution: {integrity: sha512-CaqqOlXCFJdkTh0ZeVRnTHhGz97uLckRA58ADT9Cs+YJXimA7rtAFt7mb+jqLn+v1944U3lyeX6GNy0lctI4zQ==}
@@ -7876,7 +7882,7 @@ snapshots:
       imapflow: 1.2.16
       loader-utils: 2.0.4
       mailparser: 3.9.5
-      t-comm: 3.2.3
+      t-comm: 3.2.20
       tinify: 1.8.2
       turndown: 7.2.2
       turndown-plugin-gfm: 1.0.2
@@ -7954,9 +7960,11 @@ snapshots:
 
   '@tdesign/uniapp-chat@0.2.3': {}
 
+  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4437': {}
+
   '@tdesign/uniapp@0.7.3': {}
 
-  '@tdesign/uniapp@0.8.1': {}
+  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4437': {}
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -13122,7 +13130,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  t-comm@3.2.3:
+  t-comm@3.2.20:
     dependencies:
       '@babel/runtime': 7.29.2
       '@tdesign/uniapp': 0.7.3
