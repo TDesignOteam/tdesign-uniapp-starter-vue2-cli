@@ -66,11 +66,11 @@ importers:
         specifier: ^2.0.2-4080720251210002
         version: 2.0.2-5000420260318002
       '@tdesign/uniapp':
-        specifier: https://pkg.pr.new/@tdesign/uniapp@4506
-        version: https://pkg.pr.new/@tdesign/uniapp@4506
+        specifier: ^0.9.1
+        version: 0.9.1
       '@tdesign/uniapp-chat':
-        specifier: https://pkg.pr.new/@tdesign/uniapp-chat@4506
-        version: https://pkg.pr.new/@tdesign/uniapp-chat@4506
+        specifier: ^0.2.4
+        version: 0.2.4
       '@vue/shared':
         specifier: ^3.0.0
         version: 3.5.30
@@ -1225,19 +1225,14 @@ packages:
   '@soda/get-current-script@1.0.2':
     resolution: {integrity: sha512-T7VNNlYVM1SgQ+VsMYhnDkcGmWhQdL0bDyGm5TlQ3GBXnJscEClUUOKduWTmm2zCnvNLC1hc3JpuXjs/nFOc5w==}
 
-  '@tdesign/uniapp-chat@0.2.3':
-    resolution: {integrity: sha512-I2PcuUbMZzfWin1seFmkUm8yhoebQMq3I6ewC+2e1s00rMf4mD7/MzS8w94IoZ53PO+UBzFFaBoEXEhQsY5frw==}
-
-  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4506':
-    resolution: {integrity: sha512-ow7jVrUJ8qjEJsVkDNybd++3j90tB5A2lsnRbhvhkN9tK/lgbjovrND3RHUlgzy/D+OHAT3gzau51DY+YaXpPQ==, tarball: https://pkg.pr.new/@tdesign/uniapp-chat@4506}
-    version: 0.2.3
+  '@tdesign/uniapp-chat@0.2.4':
+    resolution: {integrity: sha512-Rn99uWlcJUbyD7PW7GAQ6xDj8CuHg68FQYKFQAUF1sziW4go9y5fF31f+d49e2nFnvzPz7UcooJ7Y5AXpcX8xg==}
 
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
 
-  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4506':
-    resolution: {integrity: sha512-MHlk1JpzeW40dIupf6WdGxg/EbwInXihIVxIqrKIdxfQUp4MmH7avo+WkzsqzMFq6VcJRy3kHIsk8x4yKk+gnA==, tarball: https://pkg.pr.new/@tdesign/uniapp@4506}
-    version: 0.9.0
+  '@tdesign/uniapp@0.9.1':
+    resolution: {integrity: sha512-ir/84B+zE3vzL5IvXePbXb8XP9I6kmb1doTmsuFPSoMH46SfwVDo60hRJnDjCeLQnH183tQ4XqPEHsgATqztgg==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -7861,7 +7856,7 @@ snapshots:
   '@plugin-light/const@0.1.4':
     dependencies:
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.3
+      '@tdesign/uniapp-chat': 0.2.4
 
   '@plugin-light/shared-vue2@1.0.1(vue-template-compiler@2.6.14)':
     dependencies:
@@ -7876,7 +7871,7 @@ snapshots:
     dependencies:
       '@plugin-light/const': 0.1.4
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.3
+      '@tdesign/uniapp-chat': 0.2.4
       axios: 1.13.6
       croner: 9.1.0
       imapflow: 1.2.16
@@ -7958,13 +7953,11 @@ snapshots:
 
   '@soda/get-current-script@1.0.2': {}
 
-  '@tdesign/uniapp-chat@0.2.3': {}
-
-  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4506': {}
+  '@tdesign/uniapp-chat@0.2.4': {}
 
   '@tdesign/uniapp@0.7.3': {}
 
-  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4506': {}
+  '@tdesign/uniapp@0.9.1': {}
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -13114,7 +13107,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.29.2
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.3
+      '@tdesign/uniapp-chat': 0.2.4
       axios: 1.13.6
       cheerio: 1.2.0
       commander: 10.0.1
@@ -13134,7 +13127,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.29.2
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.3
+      '@tdesign/uniapp-chat': 0.2.4
       axios: 1.13.6
       cheerio: 1.2.0
       commander: 10.0.1
