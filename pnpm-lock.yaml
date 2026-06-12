@@ -66,11 +66,11 @@ importers:
         specifier: ^2.0.2-4080720251210002
         version: 2.0.2-5000420260318002
       '@tdesign/uniapp':
-        specifier: https://pkg.pr.new/@tdesign/uniapp@4456
-        version: https://pkg.pr.new/@tdesign/uniapp@4456
+        specifier: https://pkg.pr.new/@tdesign/uniapp@4506
+        version: https://pkg.pr.new/@tdesign/uniapp@4506
       '@tdesign/uniapp-chat':
-        specifier: https://pkg.pr.new/@tdesign/uniapp-chat@4456
-        version: https://pkg.pr.new/@tdesign/uniapp-chat@4456
+        specifier: https://pkg.pr.new/@tdesign/uniapp-chat@4506
+        version: https://pkg.pr.new/@tdesign/uniapp-chat@4506
       '@vue/shared':
         specifier: ^3.0.0
         version: 3.5.30
@@ -1228,15 +1228,15 @@ packages:
   '@tdesign/uniapp-chat@0.2.3':
     resolution: {integrity: sha512-I2PcuUbMZzfWin1seFmkUm8yhoebQMq3I6ewC+2e1s00rMf4mD7/MzS8w94IoZ53PO+UBzFFaBoEXEhQsY5frw==}
 
-  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4456':
-    resolution: {integrity: sha512-bMBLnFWDTlklzqbULxQAgFI7GEQoTLLjH7RhLwQMs05zNtMZERy3zg6Olx6PZZVIvgAbkO8FAKlWbq/M+h/DHw==, tarball: https://pkg.pr.new/@tdesign/uniapp-chat@4456}
+  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4506':
+    resolution: {integrity: sha512-ow7jVrUJ8qjEJsVkDNybd++3j90tB5A2lsnRbhvhkN9tK/lgbjovrND3RHUlgzy/D+OHAT3gzau51DY+YaXpPQ==, tarball: https://pkg.pr.new/@tdesign/uniapp-chat@4506}
     version: 0.2.3
 
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
 
-  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4456':
-    resolution: {tarball: https://pkg.pr.new/@tdesign/uniapp@4456}
+  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4506':
+    resolution: {integrity: sha512-MHlk1JpzeW40dIupf6WdGxg/EbwInXihIVxIqrKIdxfQUp4MmH7avo+WkzsqzMFq6VcJRy3kHIsk8x4yKk+gnA==, tarball: https://pkg.pr.new/@tdesign/uniapp@4506}
     version: 0.9.0
 
   '@types/babel__core@7.20.5':
@@ -5733,8 +5733,8 @@ packages:
     resolution: {integrity: sha512-B7bShN7U5ZP6uSaurjbAtXvrIDPPJvZMhjJ74j9WL78ncEl1xeMttZUc6+98eJ/OqakqfNKzoPcXWR0x/NvgCA==}
     hasBin: true
 
-  t-comm@3.2.34:
-    resolution: {integrity: sha512-T24kRw3+lafl6sCwj/xLUxZ0afZwPNoR2iHyZzDfqb/6oGuGvMXqWLgAmI9vvPmgZezZDN11BPEHy+ojTn7gSA==}
+  t-comm@3.2.42:
+    resolution: {integrity: sha512-40jM1l4Z07RbF9ncvBiJq1UgjyR8hlv9NEyzsCroBgzLOTC193dU0G+Wnxdh+ABdsp2yHLpIk987GpwwMWbUcQ==}
     hasBin: true
 
   tapable@0.1.10:
@@ -7478,10 +7478,7 @@ snapshots:
       jest-runner: 25.5.4
       jest-runtime: 25.5.4
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - utf-8-validate
 
   '@jest/transform@25.5.1':
     dependencies:
@@ -7885,7 +7882,7 @@ snapshots:
       imapflow: 1.2.16
       loader-utils: 2.0.4
       mailparser: 3.9.5
-      t-comm: 3.2.34
+      t-comm: 3.2.42
       tinify: 1.8.2
       turndown: 7.2.2
       turndown-plugin-gfm: 1.0.2
@@ -7963,11 +7960,11 @@ snapshots:
 
   '@tdesign/uniapp-chat@0.2.3': {}
 
-  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4456': {}
+  '@tdesign/uniapp-chat@https://pkg.pr.new/@tdesign/uniapp-chat@4506': {}
 
   '@tdesign/uniapp@0.7.3': {}
 
-  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4456': {}
+  '@tdesign/uniapp@https://pkg.pr.new/@tdesign/uniapp@4506': {}
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -13133,7 +13130,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  t-comm@3.2.34:
+  t-comm@3.2.42:
     dependencies:
       '@babel/runtime': 7.29.2
       '@tdesign/uniapp': 0.7.3
