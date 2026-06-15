@@ -66,8 +66,8 @@ importers:
         specifier: ^2.0.2-4080720251210002
         version: 2.0.2-5000420260318002
       '@tdesign/uniapp':
-        specifier: ^0.9.1
-        version: 0.9.1
+        specifier: ^0.10.0
+        version: 0.10.0
       '@tdesign/uniapp-chat':
         specifier: ^0.2.4
         version: 0.2.4
@@ -83,12 +83,6 @@ importers:
       t-comm:
         specifier: ^3.1.15
         version: 3.1.15
-      tdesign-uniapp:
-        specifier: https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp@4201
-        version: https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp@4201
-      tdesign-uniapp-chat:
-        specifier: https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp-chat@4201
-        version: https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp-chat@4201
       vue:
         specifier: '>= 2.6.14 < 2.7'
         version: 2.6.14
@@ -1228,11 +1222,11 @@ packages:
   '@tdesign/uniapp-chat@0.2.4':
     resolution: {integrity: sha512-Rn99uWlcJUbyD7PW7GAQ6xDj8CuHg68FQYKFQAUF1sziW4go9y5fF31f+d49e2nFnvzPz7UcooJ7Y5AXpcX8xg==}
 
+  '@tdesign/uniapp@0.10.0':
+    resolution: {integrity: sha512-0pBgrCf97DQQOiVsvhYlYhVK4BWSNlsnP8ruFfGP0102B4IdnywB/HK+YIdEAmwWiCuOrY1ZV6AKY+oioGN7NA==}
+
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
-
-  '@tdesign/uniapp@0.9.1':
-    resolution: {integrity: sha512-ir/84B+zE3vzL5IvXePbXb8XP9I6kmb1doTmsuFPSoMH46SfwVDo60hRJnDjCeLQnH183tQ4XqPEHsgATqztgg==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -5762,16 +5756,8 @@ packages:
   tdesign-uniapp-chat@0.1.3:
     resolution: {integrity: sha512-tAKpE+Ip31+LLj4r+9H/b1NzOwnLn5emXr3FqgQZOL1L3S7YOJVCKdGJ0e/FMePBtXFE38UmRmwz7W5FKc5gUA==}
 
-  tdesign-uniapp-chat@https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp-chat@4201:
-    resolution: {tarball: https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp-chat@4201}
-    version: 0.1.3
-
   tdesign-uniapp@0.6.3:
     resolution: {integrity: sha512-uIZXbP8JhjqkB6FFXIVHyDIQTQ5ICmF2pB59Mo1Q2CYX/33BV3EN3HjYq9zSN6hn7qbV7a4uv8U/x/gLjWly1w==}
-
-  tdesign-uniapp@https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp@4201:
-    resolution: {tarball: https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp@4201}
-    version: 0.6.3
 
   teen_process@1.16.0:
     resolution: {integrity: sha512-RnW7HHZD1XuhSTzD3djYOdIl1adE3oNEprE3HOFFxWs5m4FZsqYRhKJ4mDU2udtNGMLUS7jV7l8vVRLWAvmPDw==}
@@ -7955,9 +7941,9 @@ snapshots:
 
   '@tdesign/uniapp-chat@0.2.4': {}
 
-  '@tdesign/uniapp@0.7.3': {}
+  '@tdesign/uniapp@0.10.0': {}
 
-  '@tdesign/uniapp@0.9.1': {}
+  '@tdesign/uniapp@0.7.3': {}
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -13176,11 +13162,7 @@ snapshots:
     dependencies:
       tdesign-uniapp: 0.6.3
 
-  tdesign-uniapp-chat@https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp-chat@4201: {}
-
   tdesign-uniapp@0.6.3: {}
-
-  tdesign-uniapp@https://pkg.pr.new/Tencent/tdesign-miniprogram/tdesign-uniapp@4201: {}
 
   teen_process@1.16.0:
     dependencies:
