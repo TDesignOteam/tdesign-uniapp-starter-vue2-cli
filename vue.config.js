@@ -1,6 +1,9 @@
 const { DispatchScriptPlugin } = require('@plugin-light/webpack-plugin-dispatch-script');
 const { DispatchVuePlugin } = require('@plugin-light/webpack-plugin-dispatch-vue');
-
+const {
+  GenVersionWebPlugin,
+  GenVersionMpPlugin,
+} = require('@plugin-light/webpack-plugin-gen-version');
 
 const path = require('path');
 
@@ -14,6 +17,15 @@ function resolve(dir) {
 // GitHub Pages 仓库名，如果是 用户名.github.io 则设置为 '/'
 // 如果是 用户名.github.io/仓库名 则设置为 '/仓库名/'
 const GITHUB_PAGES_PATH = process.env.GITHUB_PAGES_PATH || '/tdesign-uniapp-starter-vue2-cli/';
+
+const plugins = []
+
+if (process.env.VUE_APP_PLATFORM !== 'h5') {
+  plugins.push(new GenVersionMpPlugin());
+} else {
+  plugins.push(new GenVersionWebPlugin());
+}
+
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -35,6 +47,7 @@ module.exports = {
     plugins: [
       // new DispatchScriptPlugin({}),
       isProd ? new DispatchVuePlugin({}) : null,
+      ...plugins,
     ].filter(Boolean),
   },
 };
