@@ -66,8 +66,8 @@ importers:
         specifier: ^2.0.2-4080720251210002
         version: 2.0.2-5000420260318002
       '@tdesign/uniapp':
-        specifier: ^0.10.0
-        version: 0.10.0
+        specifier: ^0.10.1
+        version: 0.10.1
       '@tdesign/uniapp-chat':
         specifier: ^0.2.4
         version: 0.2.4
@@ -1228,8 +1228,8 @@ packages:
   '@tdesign/uniapp-chat@0.2.4':
     resolution: {integrity: sha512-Rn99uWlcJUbyD7PW7GAQ6xDj8CuHg68FQYKFQAUF1sziW4go9y5fF31f+d49e2nFnvzPz7UcooJ7Y5AXpcX8xg==}
 
-  '@tdesign/uniapp@0.10.0':
-    resolution: {integrity: sha512-0pBgrCf97DQQOiVsvhYlYhVK4BWSNlsnP8ruFfGP0102B4IdnywB/HK+YIdEAmwWiCuOrY1ZV6AKY+oioGN7NA==}
+  '@tdesign/uniapp@0.10.1':
+    resolution: {integrity: sha512-7Gn/KmDn2reKwnlmRpYMcDVPvOK/l7DP8BcmSBOjMJb9yplK9hll8we1zOjQ9UnFy1hiDORSiRDW5FMUtlIGWg==}
 
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
@@ -7942,7 +7942,7 @@ snapshots:
 
   '@tdesign/uniapp-chat@0.2.4': {}
 
-  '@tdesign/uniapp@0.10.0': {}
+  '@tdesign/uniapp@0.10.1': {}
 
   '@tdesign/uniapp@0.7.3': {}
 
@@ -13093,7 +13093,7 @@ snapshots:
   t-comm@3.3.0:
     dependencies:
       '@babel/runtime': 7.29.2
-      '@tdesign/uniapp': 0.10.0
+      '@tdesign/uniapp': 0.10.1
       '@tdesign/uniapp-chat': 0.2.4
       axios: 1.13.6
       cheerio: 1.2.0
