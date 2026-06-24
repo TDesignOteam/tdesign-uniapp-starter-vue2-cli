@@ -13,10 +13,17 @@ concurrency:
 jobs:
   preview:
     runs-on: ubuntu-latest
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
       - uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
       - name: 小程序预览/上传
         uses: novlan1/tencent-cos-and-cdn-action/mp-preview@master
@@ -32,5 +39,5 @@ jobs:
           cos_bucket: mike-1255355338
           cos_region: ap-guangzhou
           cos_remote_path: tdesign-uniapp-starter-vue2-cli/wx-mp-preview-qrcode.png
-          cdn_prefix: 'https://cdn.uwayfly.com/'
-          description_prefix: 'starter-vue2-cli'
+          cdn_prefix: "https://cdn.uwayfly.com/"
+          description_prefix: "starter-vue2-cli"
