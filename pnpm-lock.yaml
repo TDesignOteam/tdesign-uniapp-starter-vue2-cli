@@ -66,11 +66,11 @@ importers:
         specifier: ^2.0.2-4080720251210002
         version: 2.0.2-5000420260318002
       '@tdesign/uniapp':
-        specifier: ^0.10.2
-        version: 0.10.2
+        specifier: ^0.10.3
+        version: 0.10.3
       '@tdesign/uniapp-chat':
-        specifier: ^0.2.4
-        version: 0.2.4
+        specifier: ^0.3.0
+        version: 0.3.0
       '@vue/shared':
         specifier: ^3.0.0
         version: 3.5.30
@@ -1234,11 +1234,14 @@ packages:
   '@tdesign/uniapp-chat@0.2.4':
     resolution: {integrity: sha512-Rn99uWlcJUbyD7PW7GAQ6xDj8CuHg68FQYKFQAUF1sziW4go9y5fF31f+d49e2nFnvzPz7UcooJ7Y5AXpcX8xg==}
 
+  '@tdesign/uniapp-chat@0.3.0':
+    resolution: {integrity: sha512-NFfIosPVdP/tMHTmB2xwfhtvoXojfHBeFFxcQVS4gOXvThf71/xFWFBnJdqDYWj9fKwbZx4p/Owa65zZOj7k1g==}
+
   '@tdesign/uniapp@0.10.1':
     resolution: {integrity: sha512-7Gn/KmDn2reKwnlmRpYMcDVPvOK/l7DP8BcmSBOjMJb9yplK9hll8we1zOjQ9UnFy1hiDORSiRDW5FMUtlIGWg==}
 
-  '@tdesign/uniapp@0.10.2':
-    resolution: {integrity: sha512-fkPmRiTgAjfo++WlJzNB3RZgt8PQTI4X7B8RFF/eb4Vc0huta8dch01iD1f+FJ7ebEsdRmEYkWcrKnGUsxPXwQ==}
+  '@tdesign/uniapp@0.10.3':
+    resolution: {integrity: sha512-daIhyOyIQXsoV2yyU3iIuccCN7RaQ9SNvbet5JabaQmYspdVBpe55LEEHMCAI9KB4uS0OeZaEUVSQhGVQkaXEA==}
 
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
@@ -5800,6 +5803,10 @@ packages:
     resolution: {integrity: sha512-L7v9Je6ZimOLjkH0Olmlf/q5nsakzSjqaSMhgcAcpRYboZO7NhvwIEpEDk7uP4VDXKmiI3uGnJdQwh+lJTw3KQ==}
     hasBin: true
 
+  t-comm@3.3.27:
+    resolution: {integrity: sha512-AqmrqVo1fmcNq2Xl4mSHlWnKrGu+A7Tv6LXd/kqSXYxrraMzhfx/kV2AT0jMxtXnvduzPITSTm94e4ka/hbPMw==}
+    hasBin: true
+
   tapable@0.1.10:
     resolution: {integrity: sha512-jX8Et4hHg57mug1/079yitEKWGB3LCwoxByLsNim89LABq8NqgiX+6iYVOsq0vX8uJHkU+DZ5fnq95f800bEsQ==}
     engines: {node: '>=0.6'}
@@ -6308,6 +6315,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-fetch@3.6.20:
     resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
@@ -7846,7 +7854,7 @@ snapshots:
 
   '@jimp/utils@0.10.3':
     dependencies:
-      '@babel/runtime': 7.29.2
+      '@babel/runtime': 7.29.7
       core-js: 3.49.0
       regenerator-runtime: 0.13.11
 
@@ -7945,7 +7953,7 @@ snapshots:
       imapflow: 1.4.6
       loader-utils: 2.0.4
       mailparser: 3.9.14
-      t-comm: 3.3.15
+      t-comm: 3.3.27
       tinify: 1.8.3
       turndown: 7.2.4
       turndown-plugin-gfm: 1.0.2
@@ -8032,9 +8040,11 @@ snapshots:
 
   '@tdesign/uniapp-chat@0.2.4': {}
 
+  '@tdesign/uniapp-chat@0.3.0': {}
+
   '@tdesign/uniapp@0.10.1': {}
 
-  '@tdesign/uniapp@0.10.2': {}
+  '@tdesign/uniapp@0.10.3': {}
 
   '@tdesign/uniapp@0.7.3': {}
 
@@ -11564,7 +11574,7 @@ snapshots:
 
   make-dir@4.0.0:
     dependencies:
-      semver: 7.7.4
+      semver: 7.8.5
 
   make-plural@7.5.0: {}
 
@@ -13265,6 +13275,24 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
+  t-comm@3.3.27:
+    dependencies:
+      '@babel/runtime': 7.29.7
+      '@tdesign/uniapp': 0.10.1
+      '@tdesign/uniapp-chat': 0.2.4
+      axios: 1.18.1
+      cheerio: 1.2.0
+      commander: 10.0.1
+      cron-parser: 4.9.0
+      jose: 4.15.9
+      qs: 6.15.3
+      request: 2.88.2
+      semver: 7.8.5
+      tar: 6.2.1
+    transitivePeerDependencies:
+      - debug
+      - supports-color
+
   tapable@0.1.10: {}
 
   tapable@1.1.3: {}
@@ -13546,7 +13574,7 @@ snapshots:
   url@0.11.4:
     dependencies:
       punycode: 1.4.1
-      qs: 6.15.0
+      qs: 6.15.3
 
   use@3.1.1: {}
 
